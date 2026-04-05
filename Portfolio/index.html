@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antor Sharkar | Portfolio</title>
+    <meta name="description"
+        content="Personal portfolio of Antor Sharkar, Android Developer showcasing mobile applications and skills.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="blob-bg"></div>
+
+    <header>
+        <nav>
+            <div class="logo">Antor<span>.</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Services <span class="arrow">&#9662;</span></a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">App Development</a></li>
+                        <li><a href="#">UI/UX Design</a></li>
+                        <li><a href="#">Consulting</a></li>
+                    </ul>
+                </li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact" class="btn-sm">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container hero-content">
+                <div class="hero-text fade-in">
+                    <h1>Hi, I'm <span class="gradient-text">Antor Sharkar</span></h1>
+                    <h2><span class="typewriter-text">Android Developer</span></h2>
+                    <p>I specialize in Mobile Applications Development, building seamless and high-performance Android
+                        apps. Based in Mirpur, Dhaka, Bangladesh.</p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn">View My Work</a>
+                        <a href="#contact" class="btn btn-outline">Let's Talk</a>
+                    </div>
+                </div>
+                <div class="hero-image fade-in-delay">
+                    <div class="profile-image-container" data-tilt data-tilt-max="15" data-tilt-speed="400"
+                        data-tilt-glare data-tilt-max-glare="0.2">
+                        <!-- Replace 'profile.jpg' with your actual image file name -->
+                        <img src="img/antor.jpeg" alt="Antor Sharkar" id="profile-img">
+                        <div class="glow-ring"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Animated Wave Divider -->
+        <div class="wave-divider">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container fade-in-up">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-info">
+                        <div class="about-text">
+                            <h3 style="margin-bottom: 1.5rem; color: var(--accent-color); font-size: 1.8rem;">Building
+                                apps that matter.</h3>
+                            <p>I'm a motivated and detail-oriented IT professional with a strong focus on Android &
+                                Flutter app development. I've built several academic and personal projects, including a
+                                deep learning-based road defect detection app and a fully offline mess management
+                                system.</p>
+                            <p>I have hands-on experience with Android Studio, Flutter, Firebase, and on-device
+                                TensorFlow Lite integration. My background also includes foundational networking skills
+                                from Daffodil Cisco Networking Academy.</p>
+                            <p>Currently expanding into DevOps to enhance mobile app deployment through CI/CD automation
+                                — passionate about building user-focused mobile solutions and contributing to innovative
+                                development teams.</p>
+                        </div>
+
+                        <div class="stats-grid">
+                            <div class="stat-box">
+                                <h4>6+</h4>
+                                <p>Projects Built</p>
+                            </div>
+                            <div class="stat-box">
+                                <h4>2+</h4>
+                                <p>Certifications</p>
+                            </div>
+                            <div class="stat-box">
+                                <h4>3+</h4>
+                                <p>Years Coding</p>
+                            </div>
+                            <div class="stat-box">
+                                <h4>2+</h4>
+                                <p>Platforms</p>
+                            </div>
+                        </div>
+
+                        <div class="languages">
+                            <h4><span style="color: var(--accent-color);">/</span> LANGUAGES SPOKEN</h4>
+                            <ul>
+                                <li><span>🇧🇩</span> Bengali (Native)</li>
+                                <li><span>🇬🇧</span> English (Proficient)</li>
+                                <li><span>🇮🇳</span> Hindi (Conversational)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Journey Section -->
+        <section id="journey" class="journey">
+            <div class="container">
+                <h2 class="section-title fade-in-up">My Timeline</h2>
+                <div class="timeline">
+
+                    <div class="timeline-item fade-in-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">2017 &ndash; 2019</div>
+                            <h3>H.S.C &mdash; Aftab Uddin School &amp; College</h3>
+                            <p>Completed Higher Secondary Certificate in Kishoreganj, laying the foundation for a tech
+                                career.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item fade-in-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">April 2021</div>
+                            <h3>Started B.Sc. CSE &mdash; Daffodil International University</h3>
+                            <p>Began Computer Science degree, diving deep into programming, algorithms, and mobile
+                                development.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item fade-in-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">2022</div>
+                            <h3>Built Task Manager &mdash; First Android App</h3>
+                            <p>Developed a real-time faculty-student communication platform with Firebase authentication
+                                and push notifications.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item fade-in-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">2023</div>
+                            <h3>Android Certification &mdash; Bongo Academy</h3>
+                            <p>Completed professional Android development training, solidifying Java and mobile UI/UX
+                                skills.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item fade-in-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">2024</div>
+                            <h3>Thesis &mdash; Road Defect Detection with AI</h3>
+                            <p>Built an on-device AI app using TensorFlow Lite and DenseNet201 for smart road pothole
+                                detection.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item fade-in-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">2024 &ndash; 2025</div>
+                            <h3>Flutter Development &mdash; Mess Manager &amp; PassVault</h3>
+                            <p>Expanded into Flutter, shipping a fully offline mess management app and a Firebase-backed
+                                password manager &mdash; both published on APKPure.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item fade-in-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">2025</div>
+                            <h3>CCNA Certified + B.Sc. Graduated</h3>
+                            <p>Earned Cisco Certified Network Associate credential and graduated. Now expanding into
+                                DevOps &amp; CI/CD automation.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Animated Wave Divider -->
+        <div class="wave-divider">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container fade-in-up">
+                <h2 class="section-title">Things I've Built</h2>
+                <div class="project-grid">
+
+                    <!-- Task Manager -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <div class="project-header">
+                                <span class="project-icon">📋</span>
+                                <span class="project-meta">ANDROID &middot; JAVA</span>
+                            </div>
+                            <h3 class="project-title">Task Manager</h3>
+                            <p class="project-desc">A mobile platform streamlining communication between faculty and
+                                students with real-time updates, secure login, and push notifications via Firebase.
+                                Includes a separate admin app for faculty-side management.</p>
+                            <ul class="project-tech">
+                                <li>Java</li>
+                                <li>XML</li>
+                                <li>Firebase</li>
+                                <li>FCM</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="https://github.com/antor19/Task-Manager" target="_blank"
+                                    class="project-link">GitHub &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Road Defect Detector -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <div class="project-header">
+                                <span class="project-icon">🛣️</span>
+                                <span class="project-meta">ANDROID &middot; JAVA + TFLITE</span>
+                            </div>
+                            <h3 class="project-title">Road Defect Detector</h3>
+                            <p class="project-desc">AI-powered app detecting potholes via on-device TensorFlow Lite
+                                image classification using a custom DenseNet201 model. Accepts camera/gallery input.
+                                Built as a thesis on smart road monitoring.</p>
+                            <ul class="project-tech">
+                                <li>Java</li>
+                                <li>TFLite</li>
+                                <li>DenseNet201</li>
+                                <li>Camera API</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="https://github.com/antor19/Pothole_Detector-App" target="_blank"
+                                    class="project-link">GitHub &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Routine Management -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <div class="project-header">
+                                <span class="project-icon">📅</span>
+                                <span class="project-meta">ANDROID &middot; JAVA</span>
+                            </div>
+                            <h3 class="project-title">Routine Management</h3>
+                            <p class="project-desc">Helps students manage class schedules efficiently with features to
+                                add, update, and delete entries through a clean, user-friendly interface.</p>
+                            <ul class="project-tech">
+                                <li>Java</li>
+                                <li>SQLite</li>
+                                <li>Android</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="https://github.com/antor19/Class-Routine" target="_blank"
+                                    class="project-link">GitHub &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Proximity Sensor App -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <div class="project-header">
+                                <span class="project-icon">📡</span>
+                                <span class="project-meta">ANDROID &middot; JAVA</span>
+                            </div>
+                            <h3 class="project-title">Proximity Sensor App</h3>
+                            <p class="project-desc">Dynamically changes background color based on proximity sensor
+                                input, demonstrating hardware sensor integration in Android development.</p>
+                            <ul class="project-tech">
+                                <li>Java</li>
+                                <li>Sensors API</li>
+                                <li>Android</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="https://github.com/antor19/SensorPracticeProject" target="_blank"
+                                    class="project-link">GitHub &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mess Manager -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <div class="project-header">
+                                <span class="project-icon">🍽️</span>
+                                <span class="project-meta">FLUTTER &middot; OFFLINE</span>
+                            </div>
+                            <h3 class="project-title">Mess Manager</h3>
+                            <p class="project-desc">A fully offline mess management app built with Flutter. All data is
+                                saved locally on device &mdash; no internet required. Manages meal schedules, member
+                                lists, expenses, and daily records.</p>
+                            <ul class="project-tech">
+                                <li>Flutter</li>
+                                <li>Dart</li>
+                                <li>Hive</li>
+                                <li>Offline First</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="https://apkpure.com/mess-manager/com.flutter.messmanager" target="_blank"
+                                    class="project-link">&darr; Download APK</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PassVault -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <div class="project-header">
+                                <span class="project-icon">🔐</span>
+                                <span class="project-meta">FLUTTER &middot; FIREBASE</span>
+                            </div>
+                            <h3 class="project-title">PassVault</h3>
+                            <p class="project-desc">A secure password manager app built with Flutter. Features user
+                                login & registration via Firebase Authentication, and securely stores credentials in
+                                Cloud Firestore. Published on APKPure.</p>
+                            <ul class="project-tech">
+                                <li>Flutter</li>
+                                <li>Dart</li>
+                                <li>Firebase Auth</li>
+                                <li>Firestore</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="https://apkpure.com/p/com.example.login_reg_pass_manager" target="_blank"
+                                    class="project-link">&darr; Download APK</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title fade-in-up">My Toolkit</h2>
+                <div class="skills-category-grid">
+                    <!-- Android Development -->
+                    <div class="skill-category-card fade-in-up">
+                        <div class="category-header">
+                            <span class="category-icon">🤖</span>
+                            <h3>Android Development</h3>
+                        </div>
+                        <div class="skill-badges">
+                            <span class="skill-badge">Java</span>
+                            <span class="skill-badge">Android Studio</span>
+                            <span class="skill-badge">XML Layouts</span>
+                            <span class="skill-badge">Jetpack Components</span>
+                            <span class="skill-badge">Push Notifications</span>
+                            <span class="skill-badge">Sensors API</span>
+                        </div>
+                    </div>
+
+                    <!-- Flutter & Cross-Platform -->
+                    <div class="skill-category-card fade-in-up">
+                        <div class="category-header">
+                            <span class="category-icon">⚡</span>
+                            <h3>Flutter & Cross-Platform</h3>
+                        </div>
+                        <div class="skill-badges">
+                            <span class="skill-badge">Flutter</span>
+                            <span class="skill-badge">Dart</span>
+                            <span class="skill-badge">Hive (Local DB)</span>
+                            <span class="skill-badge">SharedPreferences</span>
+                            <span class="skill-badge">Firebase Auth</span>
+                            <span class="skill-badge">Cloud Firestore</span>
+                        </div>
+                    </div>
+
+                    <!-- Firebase -->
+                    <div class="skill-category-card fade-in-up">
+                        <div class="category-header">
+                            <span class="category-icon">🔥</span>
+                            <h3>Firebase</h3>
+                        </div>
+                        <div class="skill-badges">
+                            <span class="skill-badge">Realtime Database</span>
+                            <span class="skill-badge">Authentication</span>
+                            <span class="skill-badge">Cloud Messaging</span>
+                            <span class="skill-badge">Firestore</span>
+                        </div>
+                    </div>
+
+                    <!-- AI / Machine Learning -->
+                    <div class="skill-category-card fade-in-up">
+                        <div class="category-header">
+                            <span class="category-icon">🧠</span>
+                            <h3>AI / Machine Learning</h3>
+                        </div>
+                        <div class="skill-badges">
+                            <span class="skill-badge">TensorFlow Lite</span>
+                            <span class="skill-badge">On-Device Inference</span>
+                            <span class="skill-badge">DenseNet201</span>
+                            <span class="skill-badge">Image Classification</span>
+                        </div>
+                    </div>
+
+                    <!-- Tools & DevOps -->
+                    <div class="skill-category-card fade-in-up">
+                        <div class="category-header">
+                            <span class="category-icon">🛠</span>
+                            <h3>Tools & DevOps</h3>
+                        </div>
+                        <div class="skill-badges">
+                            <span class="skill-badge">GitHub</span>
+                            <span class="skill-badge">Git</span>
+                            <span class="skill-badge">Jenkins (CI/CD)</span>
+                        </div>
+                    </div>
+
+                    <!-- Networking -->
+                    <div class="skill-category-card fade-in-up">
+                        <div class="category-header">
+                            <span class="category-icon">🌐</span>
+                            <h3>Networking (CCNA)</h3>
+                        </div>
+                        <div class="skill-badges">
+                            <span class="skill-badge">Routing & Switching</span>
+                            <span class="skill-badge">Subnetting</span>
+                            <span class="skill-badge">Network Security</span>
+                            <span class="skill-badge">Packet Tracer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Radar Chart Container -->
+                <div class="radar-chart-container fade-in-up"
+                    style="margin-top: 3rem; background: var(--surface-color-alpha); border: 1px solid var(--border-color); border-radius: 16px; padding: 2rem;">
+                    <h3 style="text-align: center; margin-bottom: 1.5rem; color: var(--text-primary);">Core Competencies
+                    </h3>
+                    <div
+                        style="position: relative; height: 400px; width: 100%; display: flex; justify-content: center;">
+                        <canvas id="skillsRadarChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- GitHub Stats Section -->
+        <section id="github" class="github-stats">
+            <div class="container fade-in-up">
+                <h2 class="section-title">GitHub Activity</h2>
+                <div class="github-grid">
+                    <div class="github-card">
+                        <img id="gh-stats" src="" alt="GitHub Stats">
+                    </div>
+                    <div class="github-card">
+                        <img id="gh-langs" src="" alt="Top Languages">
+                    </div>
+                </div>
+                <div class="github-card graph-card" style="margin-top: 2rem;">
+                    <img id="gh-graph" src="" alt="GitHub Contribution Graph">
+                </div>
+            </div>
+        </section>
+
+        <!-- Live Repositories Section -->
+        <section id="live-repos" class="live-repos" style="padding-top: 0;">
+            <div class="container fade-in-up">
+                <h2 class="section-title">Open Source Contributions</h2>
+                <div id="repo-grid" class="project-grid">
+                    <!-- Repositories will be injected here via JavaScript -->
+                </div>
+                <div id="repo-loading"
+                    style="text-align: center; color: var(--text-secondary); width: 100%; margin-top: 2rem;">
+                    <p>Loading repositories...</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume / CV Preview Section -->
+        <section id="resume" class="resume">
+            <div class="container fade-in-up">
+                <h2 class="section-title">My Resume</h2>
+                <div class="resume-preview-container"
+                    style="max-width: 700px; margin: 0 auto; background: rgba(26, 34, 53, 0.3); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 16px; padding: 3rem 2rem; text-align: center; backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);">
+                    <div style="display: flex; justify-content: center; margin-bottom: 1.5rem;">
+                        <svg stroke="var(--accent-color)" fill="none" stroke-width="1.5" viewBox="0 0 24 24"
+                            stroke-linecap="round" stroke-linejoin="round" height="80px" width="80px"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                            <polyline points="14 2 14 8 20 8"></polyline>
+                            <line x1="16" y1="13" x2="8" y2="13"></line>
+                            <line x1="16" y1="17" x2="8" y2="17"></line>
+                            <polyline points="10 9 9 9 8 9"></polyline>
+                        </svg>
+                    </div>
+                    <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Antor_Sharkar_Resume.pdf</h3>
+                    <p
+                        style="color: var(--text-secondary); margin-bottom: 2.5rem; max-width: 400px; margin-left: auto; margin-right: auto;">
+                        Check out my complete professional background, academic achievements, and core technical
+                        competencies.</p>
+                    <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                        <a href="cv/Resume-Antor.pdf" target="_blank" class="btn btn-outline"
+                            style="min-width: 180px; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+                            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+                                stroke-linecap="round" stroke-linejoin="round" height="18px" width="18px"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                <circle cx="12" cy="12" r="3"></circle>
+                            </svg>
+                            View Resume
+                        </a>
+                        <a href="cv/Resume-Antor.pdf" download="Antor_Sharkar_Resume.pdf" class="btn"
+                            style="min-width: 180px; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+                            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+                                stroke-linecap="round" stroke-linejoin="round" height="18px" width="18px"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="7 10 12 15 17 10"></polyline>
+                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                            </svg>
+                            Download PDF
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Animated Wave Divider -->
+        <div class="wave-divider" style="margin-top: 0; margin-bottom: 2rem;">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container fade-in-up">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="contact-text" style="max-width: 600px; margin: 0 auto 3rem auto; text-align: center;">I'm open
+                    to new opportunities. Whether you have an app idea or just want to connect, feel free to reach out!
+                </p>
+
+                <div class="contact-wrapper"
+                    style="display: grid; grid-template-columns: 1fr 1.5fr; gap: 4rem; text-align: left;">
+                    <div class="contact-info-panel fade-in-up">
+                        <h3 style="margin-bottom: 1.5rem; color: var(--accent-color);">Contact Information</h3>
+                        <div class="contact-item" style="margin-bottom: 1.5rem;">
+                            <strong>Email:</strong> <br><a
+                                href="mailto:antor15-4111@diu.edu.bd">antor15-4111@diu.edu.bd</a>
+                        </div>
+                        <div class="contact-item" style="margin-bottom: 1.5rem;">
+                            <strong>Phone:</strong> <br><a href="tel:01402022518">01402022518</a>
+                        </div>
+                        <div class="contact-item" style="margin-bottom: 1.5rem;">
+                            <strong>Location:</strong> <br>Mirpur-1, Dhaka, Bangladesh
+                        </div>
+                    </div>
+
+                    <div class="contact-form-panel fade-in-up" style="animation-delay: 0.2s;">
+                        <form id="contactForm">
+                            <!-- ADD YOUR ACCESS KEY BELOW -->
+                            <input type="hidden" name="access_key" value="aae1bc73-bda9-4224-bf19-86e151b807ac">
+                            <input type="hidden" name="subject" value="New Submission from Portfolio!">
+                            <div class="input-row"
+                                style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+                                <input type="text" name="name" class="contact-input" placeholder="Your Name" required>
+                                <input type="email" name="email" class="contact-input" placeholder="Your Email"
+                                    required>
+                            </div>
+                            <input type="text" name="topic" class="contact-input" placeholder="Subject"
+                                style="margin-bottom: 1rem; width: 100%;" required>
+                            <textarea name="message" class="contact-input" placeholder="Your Message" rows="5"
+                                style="margin-bottom: 1.5rem; width: 100%; resize: vertical;" required></textarea>
+                            <button type="submit" class="btn" id="submitBtn" style="width: 100%;">Send Message</button>
+                            <p id="formResult"
+                                style="margin-top: 1rem; font-size: 0.9rem; text-align: center; display: none;"></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Antor Sharkar. Built with passion.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
